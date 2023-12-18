@@ -9,6 +9,6 @@ spesa = {
 for k in spesa.items():
     print(k, "\n")
    
-print("Spesa totale:", spesa['banane']['quantita'] + spesa['farina']['quantita'] + spesa['nutella']['quantita'], "€")
+print("Spesa totale quantitativo:", spesa['banane']['quantita'] + spesa['farina']['quantita'] + spesa['nutella']['quantita'], "€")
 
-print("Prezzo totale:", spesa['banane']['prezzo_unitario'] + spesa['farina']['prezzo_unitario'] + spesa['nutella']['prezzo_unitario'], "€")
+print("Prezzo totale della spesa:", spesa['banane']['prezzo_unitario'] + spesa['farina']['prezzo_unitario'] + spesa['nutella']['prezzo_unitario'], "€")
